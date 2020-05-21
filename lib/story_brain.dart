@@ -63,7 +63,7 @@ class StoryBrain {
       if (choiceNumber == 1) {
         _storyNumber = 5;
       } else {
-        _storyNumber = 6;
+        _storyNumber = 4;
       }
     } else if (_storyNumber == 3) {
       restart();
@@ -79,9 +79,6 @@ class StoryBrain {
   }
 }
 
-//TODO: Step 23 - Use the storyNumber property inside getStory(), getChoice1() and getChoice2() so that it gets the updated story and choices rather than always just the first (0th) one.
-
 //TODO: Step 25 - Change the storyNumber property into a private property so that only story_brain.dart has access to it. You can do this by right clicking on the name (storyNumber) and selecting Refactor -> Rename to make the change across all the places where it's used.
-
 
 //TODO: Step 27 - Create a method called buttonShouldBeVisible() which checks to see if storyNumber is 0 or 1 or 2 (when both buttons should show choices) and return true if that is the case, else it should return false.
